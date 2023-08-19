@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Ejercicio 3</string>
+    <string name="title_home">Eventos</string>
+    <string name="title_dashboard">Crear Evento</string>
+    <string name="title_notifications">Contactos</string>
+    <string name="title_place">Lugares</string>
+    <string name="todos">Todos</string>
+    <string name="nombre_lugar">Nombre del lugar</string>
+    <string name="guardar">Guardar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nuevo_evento">Nuevo evento</string>
+    <string name="editar">Editar</string>
+    <string name="compartir">Compartir</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="Fecha">Seleccionar Fecha</string>
+    <string name="coordinador">Coordinador</string>
+    <string name="Ejercicio">Ejercicio</string>
+    <string name="eliminar_contactos">Eliminar contactos</string>
+    <string name="importar_contactos">Importar contactos</string>
+    <string name="sin_contactos">No hay contactos importados, presione el botón \"Importar contactos\" para importar la lista de contactos</string>
+    <string name="importando_contactos">Importando contactos, espere por favor…</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="eliminar_nota">Desea eliminar la nota del lugar </string>
+    <string name="seleccione_acompaniante">Seleccione acompañantes</string>
+    <string name="sin_contactos_seleccionados">Sin acompañantes seleccionados</string>
+    <string name="obteniendo_ubicacion">Obteniendo ubicación…</string>
+    <string name="ubicacion_obtenida">Ubicación obtenida  &#10003;</string>
+    <string name="mostrar_acompaniantes">Mostrar acompañantes</string>
+    <string name="regresar">Regresar</string>
+    <string name="seleccione_acomp_compartir">Seleccione acompañante con quien compartir.</string>
+    <string name="seleccione_app_compartir">Seleccione medio para compartir</string>
+    <string name="falta_informacion">Debe de proporcionar la informacion solicitada (lugar y comentario, ubicación).</string>
+    <string name="permiso_denegado">Permiso denegado</string>
+    <string name="companieros_maximos">Solo puede seleccionar 6 acompañantes como máximo</string>
+
+
+</resources>

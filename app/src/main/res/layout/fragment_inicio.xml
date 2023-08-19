@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inicio.InicioFragment">
+
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/round_post_add_24"
+        android:layout_gravity="center"
+        app:tint="?colorTertiaryFixed"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/nuevo_evento"
+        android:src="@drawable/round_post_add_24"
+        android:tint="@color/md_theme_dark_inversePrimary"
+        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
